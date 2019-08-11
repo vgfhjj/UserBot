@@ -184,18 +184,10 @@ FACEREACTS = [
     "(｡◕‿◕｡)",
 ]
 RUNSREACTS = [
-    "`Runs to pedo Mukesh`",
-    "`Runs far, far away from earth`",
-    "`Running faster than supercomputer coz I'm Spyderzzz Frand`",
-    "`Runs to Rose`",
-    "`This Group is too kensurass to deal with.`",
-    "`Cya bois`",
-    "`I am a mad person. Plox Ban me.`",
+    "`I am a mad person. Plox make me admin.`",
     "`I go Away`",
     "`I am just walking off, coz me is too smart.`",
-    "`I Fugged off!`",
-    "`Accha Chalta hu Duaon me yaad krha kthx bai`",
-    "`kthax bai`",
+    "`I Fugged off!`, 
     "`I iz going to vanish soon Kek!`",
 ]
 RAPE_STRINGS = [
