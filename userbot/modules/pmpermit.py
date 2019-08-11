@@ -16,12 +16,13 @@ from userbot import (COUNT_PM, CMD_HELP, BOTLOG, BOTLOG_CHATID,
 from userbot.events import register
 
 # ========================= CONSTANTS ============================
-UNAPPROVED_MSG = ("`Hello`\n\n"
-                  "`Sorry I'm not in a condition of helping anyone so it isn't worth messaging me.`\n"
-                  "`Instead, go to Google or` @CraBinz `and find solutions.`\n\n"
+UNAPPROVED_MSG = ("`Hello This is an automated reply`\n\n"
+                  "`The user you are trying to message is no more availabe for DM but still drop him a message `@techgurujiibot`,if he finds you important he will surely reply you\n`"
+                  "`Instead, go to Google find solutions.`\n\n"
                   "`Trust me you will discover more than what you think...\n`"
-                  "`Regards,`\n"
-                  "`Spyder :)`")
+                  "`And yeah don't send more than 5 messages or else your profile will be reported and blocked. 🙂\n`"
+                  "`KBye😊,`\n"
+                  "`TECHGURUJII :)`")
 # =================================================================
 
 
@@ -63,8 +64,8 @@ async def permitpm(event):
 
                 if COUNT_PM[event.chat_id] > 4:
                     await event.respond(
-                        "`You were spamming my peru master's PM, which I don't like.`"
-                        " `I'mma Report Spam, now GTFO.`"
+                        "`You were spamming my peru master's TECHGURUJI PM, which I don't like.`"
+                        " `I'mma Report Spam, now Get the Fuck Out.`"
                     )
 
                     try:
