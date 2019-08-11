@@ -202,28 +202,26 @@ RAPE_STRINGS = [
      "`Rape Done Drink The Cum`",
      "`The user has been successfully raped`",
      "`Dekho Bhaiyya esa hai! Izzat bachailo apni warna Gaand maar lenge tumhari`",
-     "`Relax your Rear, ders nothing to fear,The Rape train is finally here`",
+     "`Apne lund se baahar nikal..nahin toh rahin rahega zindagi bhar..gandu`",
      "`Rape coming... Raped! haha 😆`",
      "`Lodu Andha hai kya Yaha tera rape ho raha hai aur tu abhi tak yahi gaand mara raha hai lulz`",
-     "`Dont't rape too much bsdk !!!`",
+     "`Peru ka shehar hai yeh..khuch bhi ho sakta hai idhar..Gutter ka kutta poore sheharon pe moot dega abhi`",
 ] 
 ABUSE_STRINGS = [
-           "`Madharchod`",
-	   "`Gaandu`",
+           "`Mazak bna rakha hai,Madharchod`",
+	   "`Aaja creamroll chuss lae`",
 	   "`Chutiya hi rah jayega`",
 	   "`Ja be Gaandu`",
 	   "`Ma ka Bhodsa madharchod`",
-	   "`mml`",
-	   "`You MotherFukcer`",
+	   "`Jinda toh Jahtt ke Baal bhi hai`",
+	   "`Abay,Gand na phulaoo,Maa choddh Denge Tumhari,Bhosdike..`",
 	   "`Muh Me Lega Bhosdike ?`"
-	   "`Bhai BSDK`",
-	   "`Madarchod Bhsodike macchar ki jhaat gandu makichut teri, tatto ke saudagar`",
+	   "`विशुद्ध चूतिये लड़के हो तुम! चुप रहो`",
+	   "`Bhosdike,Madarchod,Bhen ke lode,Macchar ki jhaat,Gandu maa ki chut teri, tatto ke saudagar`",
 	   "`Mene tere se bola madarchud?`",
+           "`Nikal lawde..phle fursat me nikal..nhi toh yhi parr gand marr le jayegii`",
 ]
 GEY_STRINGS = [
-     "`you gey bsdk`",
-     "`you gey`",
-     "`you gey in the house`",
      "`you chakka`",
      "`you gey gey gey gey gey gey gey gey`",
      "`you gey go away`",
@@ -233,7 +231,7 @@ PRO_STRINGS = [
      "`This gey is pro as phack....... Muh m Lega Bsdk` 🙂",
      "`Pros here -_- Time to Leave`",
      "`What are you bsdk?Human or Gawd` (+_+)",
-     "`Aye pedo gey, send moni pls`",
+     "`PROness Level : ek lodha do tattae`",
      "`U iz pru & I iz nub`",
      "`PROness Level : 696969`",
 ]
@@ -262,6 +260,8 @@ ABUSEHARD_STRING = [
   "`Jaana chodu chad jake land chaat`",
   "`Yaar ajab tere nkhare,gazab tera style hain, gand dhone ki tameez nahi, haath main mobile hai`",
   "`Chodte Chodte Subah Ho Gyi L*nd Mein Pad Gaye Chale, Ch**t Fat Ke Gufa Ho Gyi, Wah Re Ch*dne Wale.`",
+  "`Aandi mandi shandi...teri maa randi`",
+  "`Tere toh aise gand marunga na.. 10 din tak seedha nhi chal payega..lodhuu..Bhagg!!😆`"
 ]
 INSULT_STRINGS = [ 
     "`Owww ... Such a stupid idiot.`",
@@ -295,6 +295,15 @@ INSULT_STRINGS = [
     "`Yaar ajab tere nkhare,gazab tera style hain, gand dhone ki tameez nahi, haath main mobile hai`",
     "`Saawan ka mahina pawan kare shor jake gand mara bskd kahi aur.`", 
     "`Dil ke armaa ansuon me beh jaye tum bskd ke chutiye hi reh gye.`",
+    "`Bhagwan ko mante ho??..Bhagwan ko lund pharak nahi padhta`",
+    "`तू वही है ना जिसका खड़ा नही होता..`",
+    "`Nanga hee toh aaya hai,kya ghanta leke jayega`",
+    "`Oooooo, Bhosdiwale,Chacha`", 
+]
+SLAP_STRINGS = [
+    "`Bhosdike..aisa thappdh...dunga..soo jayega hamesa ke liye😆`", 
+    "`Baap se bakchodi karega...le...thapdhh`",
+    "`Gandu..teri gand par ek thappdh lga dia na.. 4 din takk...Hug nhi payega lodhe`",
 ]
 # ===========================================
 
@@ -427,7 +436,7 @@ async def zal(zgfy):
 @register(outgoing=True, pattern="^hi$")
 async def hoi(hello):
     """ Greet everyone! """
-    await hello.edit("Hoi!😄")
+    await hello.edit("Hoiiiiiiiii😊!😄")
                           
                           
 @register(outgoing=True, pattern="^.hack$")
@@ -436,8 +445,9 @@ async def hacking (hacked):
     if not hacked.text[0].isalpha() and hacked.text[0] not in ("/", "#", "@", "!"):
         if await hacked.get_reply_message():
             await hacked.edit(
-                "`Targeted Account Hacked successfully 😎......`\n"
-                "`Pay 6969$ to` @spyderzzz `To Remove This Hack...`\n"
+                "`Targeted Account Hacked successfully 👿......`\n"
+                "`Pay 696969$ to` @tech_gurujii `To Remove This Hack...`\n"
+                "`Hai aukaat eetne paise dene kiii👿😈😈.. . . `\n"
             )
 
 @register(outgoing=True, pattern="^.kill$")
@@ -446,8 +456,8 @@ async def killing (killed):
     if not killed.text[0].isalpha() and killed.text[0] not in ("/", "#", "@", "!"):
         if await killed.get_reply_message():
             await killed.edit(
-                "`Targeted User was Killed successfully 😈......`\n"
-		"#sad_reacts_only\n"
+                "`Targeted User was Killed successfully 😈👿👿👿😈😈......`\n"
+		"Aab tereko kon bachaega re madarchod\n"
             )
 			  
 			  
