@@ -187,7 +187,7 @@ RUNSREACTS = [
     "`I am a mad person. Plox make me admin.`",
     "`I go Away`",
     "`I am just walking off, coz me is too smart.`",
-    "`I Fugged off!`, 
+    "`I Fugged off!`", 
     "`I iz going to vanish soon Kek!`",
 ]
 RAPE_STRINGS = [
